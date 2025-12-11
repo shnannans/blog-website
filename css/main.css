@@ -1,0 +1,181 @@
+#logo {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    padding-left: 10px;
+}
+
+footer{
+    border-top: solid 1px;
+    padding: 10px 0;
+    width: 100vw;
+    padding-bottom: 100px;
+    background-color:#f4f2ef;
+}
+
+footer .footer-text{
+    font-size: small;
+}
+
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 242, 239);
+}
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 0px !important; 
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+
+
+.navbar {
+    padding: 20px 40px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+#home-page {
+    padding: 10vh 5vw; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 7vh ;
+}
+
+
+
+#home-page h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 74px;
+    line-height: 1.2; 
+    letter-spacing: -1px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 500px;
+}
+
+.material-symbols-outlined {
+    font-size: 40px; /* Adjust size */
+    color: white; /* Ensure icons are visible */
+}
+
+.input-group {
+    max-width: 300px; /* Limit width */
+}
+
+/* --------------------------------------------*/
+/*home_loggedin*/
+
+/* Sidebar */
+.bg-dark {
+    background-color: #343a40 !important;
+}
+.bg-dark h4, .bg-dark h5, .bg-dark a {
+    color: white;
+}
+.bg-dark a.text-warning {
+    color: #ffc107 !important;
+}
+.bg-dark a.text-danger {
+    color: #dc3545 !important;
+}
+.bg-dark ul {
+    padding-left: 0;
+    list-style: none;
+}
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+/* Style for posts */
+.post-title-wrapper {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-title-wrapper:hover {
+    background-color: #f7f7f7;
+}
+
+.post-title {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.all-posts {
+    margin-top: 20px;
+}
+
+.post-title-wrapper small {
+    color: #666;
+}
+
+/* Style for user profile avatar */
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  /* Style for login/register */
+.link-hover-animate {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.link-hover-animate:hover {
+    color: grey !important; 
+    text-decoration: underline;
+}
+
+.forget-link{
+    color: white
+    
+}
+
+.btn-fixed-height {
+    height: 40px;       
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*View posts*/
+.language-selector {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+  
