@@ -1,2 +1,2 @@
 # blog-website
-University Year 1 Web Systems Group Project
+University Year 1 Web Systems & Technologies Group Project
